@@ -1,0 +1,16 @@
+{
+  "name": "request-anomaly-guard",
+  "version": "1.0.0",
+  "description": "Express middleware that detects anomalous HTTP request patterns (sudden bursts, abnormal sizes, odd headers) and blocks them before they hit your route handlers.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --test"
+  },
+  "keywords": ["express", "middleware", "security", "anomaly-detection", "rate-limiting", "guardrail"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OMD-123/request-anomaly-guard.git"
+  }
+}
